@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999900"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:background="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/icon_image" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:id="@+id/tip_photo"
+        android:background="@drawable/spring_salad"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:contentDescription="@string/tip_image"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_tip"
+        android:layout_below="@+id/tip_photo"
+        android:id="@+id/tip_text"
+        android:textColor="@android:color/secondary_text_light"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tip_text"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/to_main_menu_button"
+        android:src="@drawable/goto_main_menu_button_style"
+        android:text="@string/goto_application"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:onClick="gotoMainMenu"
+        android:textColor="@android:color/secondary_text_light"
+        />
+
+</RelativeLayout>

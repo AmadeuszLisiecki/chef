@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Szef kuchni</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="first_tip">Wszystkie sałatki powinny być komponowane tak, aby w swoich składach miały różnorodne i "żywe" kolory.</string>
+    <string name="goto_application">Przejdź do aplikacji</string>
+    <string name="icon_image">Zdjęcie ikony</string>
+    <string name="tip_image">Zdjęcie porady</string>
+    <string name="action_settings">Settings</string>
+    <string name="small_icon">Mała ikona</string>
+    <string name="set_food">Wpisz nazwę potrawy</string>
+    <string name="search_icon">Ikona lupy</string>
+    <string name="line">Linia oddzielająca</string>
+    <string name="category_image">Zdjęcie kategorii</string>
+    <string name="chef">Szef kuchni</string>
+    <string name="back">Strzałka powrotu</string>
+    <string name="ingredients">Składniki</string>
+    <string name="recepture">Przepis</string>
+    <string name="info">Informacje</string>
+    <string name="multimedia">Multimedia</string>
+    <string name="substituties">Zamienniki</string>
+    <string name="cost">Koszt składników</string>
+    <string name="dot">Przycisk radio</string>
+    <string name="steps">Kroki</string>
+    <string name="photo">Zdjęcie</string>
+    <string name="results">Wyniki wyszukiwania</string>
+    <string name="random">Losowanie potrawy</string>
+    <string name="predictor">Przelicznik miar</string>
+    <string name="about_app">O aplikacji</string>
+    <string name="choose">Wybierz rodzaj posiłku:</string>
+    <string-array name="time_of_day">
+        <item>Śniadanie</item>
+        <item>Obiad</item>
+        <item>Kolacja</item>
+        <item>Deser</item>
+    </string-array>
+    <string name="random_button_text">Losuj</string>
+    <string name="recpeture_photo">Zdjęcie wylosowanej potrawy</string>
+    <string name="go_to_recepture">Przejdź do przepisu</string>
+    <string name="empty_base">W bazie nie ma takich potraw</string>
+    <string name="predictors">Przelicznik miar kuchennych</string>
+    <string name="name">Nazwa</string>
+    <string name="glass">Szklanka:</string>
+    <string name="spoon">Łyżka:</string>
+    <string name="spoon_small">Łyżeczka:</string>
+    <string name="stock">Bulion</string>
+    <string name="g250">250g</string>
+    <string name="g15">15g</string>
+    <string name="g5">5g</string>
+    <string name="breadcrumbs">Bułka tarta</string>
+    <string name="g150">150g</string>
+    <string name="g8">8g</string>
+    <string-array name="predictors">
+        <item>Bulion</item>
+        <item>Bułka tarta</item>
+        <item>Cukier</item>
+        <item>Cukier puder</item>
+        <item>Cukier waniliowy</item>
+        <item>Cynamon</item>
+        <item>Czekolada w proszku</item>
+        <item>Dżem</item>
+        <item>Kakao</item>
+        <item>Kasza gryczana</item>
+        <item>Kasza jęczmienna</item>
+        <item>Kasza manna</item>
+        <item>Ketchup</item>
+        <item>Koncentrat pomidorowy</item>
+        <item>Majonez</item>
+        <item>Mak</item>
+        <item>Margaryna</item>
+        <item>Masło</item>
+        <item>Mąka pszenna</item>
+        <item>Migdały</item>
+        <item>Miód</item>
+        <item>Mleko</item>
+        <item>Mleko w proszku</item>
+        <item>Olej</item>
+        <item>Orzechy laskowe mielone</item>
+        <item>Papryka mielona</item>
+        <item>Pieprz mielony</item>
+        <item>Płatki owsiane</item>
+        <item>Proszek do pieczenia</item>
+        <item>Rodzynki</item>
+        <item>Ryż</item>
+        <item>Smalec</item>
+        <item>Soda oczyszczona</item>
+        <item>Śmietana</item>
+        <item>Wiórki kokosowe</item>
+        <item>Woda</item>
+        <item>Żelatyna</item>
+        <item>Żółty ser (starty)</item>
+    </string-array>
+    <string name="version">Wersja 1</string>
+    <string name="me">Autorem jest Amadeusz Lisiecki, student Politechniki Wrocławskiej na kierunku Informatyka (Wydział Informatyki i Zarządzania). </string>
+    <string name="project">Projekt stanowi pracę inżynierską. Promotorem jest doc. dr inż. Krzysztof Waśko.</string>
+    <string name="date">Data ukończenia aplikacji: 13.5.2016.</string>
+    <string name="contact">Chcesz mi przesłać przepis, pochwalić aplikację, nawiązać współpracę? Skontaktuj się ze mną!</string>
+    <string name="email_icon">Ikona poczty email</string>
+    <string name="main_menu">Przejdź do ekranu z wyszukiwarkami</string>
+</resources>

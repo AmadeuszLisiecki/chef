@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:showIn="@layout/app_bar_random"
+    android:background="#999900"
+    tools:context=".RandomActivity">
+
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:id="@+id/name_random"
+        android:background="#009900"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/line"
+            android:src="@drawable/line2"
+            android:id="@+id/line2_random"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/line"
+            android:src="@drawable/line3"
+            android:id="@+id/line3_random"
+            android:layout_below="@+id/line2_random"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_below="@+id/line2_random"
+            android:layout_toRightOf="@+id/line3_random"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="21sp"
+            android:id="@+id/text_random"
+            android:layout_alignParentRight="true"
+            android:text="@string/random"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/line"
+            android:src="@drawable/line3"
+            android:id="@+id/line3_2_random"
+            android:layout_below="@+id/line2_random"
+            android:layout_alignParentRight="true"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/line"
+            android:src="@drawable/line2"
+            android:id="@+id/line5_random"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_below="@+id/name_random"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:id="@+id/choose"
+        android:text="@string/choose"
+        android:layout_marginTop="15dp"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose"
+        android:id="@+id/time_day"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time_day"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/random_button"
+        android:text="@string/random_button_text"
+        android:onClick="setRandomRecepture"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/line"
+        android:src="@drawable/line2"
+        android:id="@+id/line6_random"
+        android:layout_below="@+id/random_button"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_below="@+id/line6_random"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:id="@+id/dish_name_random"
+        android:layout_marginTop="15dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/recpeture_photo"
+        android:id="@+id/random_recepture_photo"
+        android:layout_below="@+id/dish_name_random"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/random_recepture_photo"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/go_to_receptue"
+        android:text="@string/go_to_recepture"
+        android:onClick="goToRecepture"
+        />
+
+</RelativeLayout>
