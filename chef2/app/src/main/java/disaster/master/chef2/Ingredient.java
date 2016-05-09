@@ -18,7 +18,7 @@ public class Ingredient {
 
     @Override
     public String toString() {
-        return  meassure + " " + name;
+        return  meassure + (meassure.equals("")? "" : " ") + name;
     }
 
     public ArrayList<Ingredient> getSubstituties() {

@@ -18,6 +18,7 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -41,7 +42,6 @@ public class IngredientsActivity extends AppCompatActivity implements Navigation
         else {
             setContentView(R.layout.activity_ingredients);
         }
-        setContentView(R.layout.activity_ingredients);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         if(getSupportActionBar() != null) {

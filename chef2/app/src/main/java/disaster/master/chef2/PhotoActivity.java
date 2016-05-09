@@ -64,30 +64,18 @@ public class PhotoActivity extends Activity {
                         return true;
                     case MotionEvent.ACTION_UP:
                         float currentX = touchevent.getX();
-                        // Handling left to right screen swap.
                         if (lastX < currentX) {
-                            // If there aren't any other children, just break.
                             if (viewFlipper.getDisplayedChild() == 0)
                                 break;
-                            // Next screen comes in from left.
                             viewFlipper.setInAnimation(getApplication(), R.anim.slide_in_from_left);
-
-                            // Current screen goes out from right.
                             viewFlipper.setOutAnimation(getApplication(), R.anim.slide_out_to_right);
-
-                            // Display next screen.
                             viewFlipper.showNext();
                         }
-                        // Handling right to left screen swap.
                         if (lastX > currentX) {
-                            // If there is a child (to the left), kust break.
                             if (viewFlipper.getDisplayedChild() == 1)
                                 break;
-                            // Next screen comes in from right.
                             viewFlipper.setInAnimation(getApplication(), R.anim.slide_in_from_right);
-                            // Current screen goes out from left.
                             viewFlipper.setOutAnimation(getApplication(), R.anim.slide_out_to_left);
-                            // Display previous screen.
                             viewFlipper.showPrevious();
                         }
                         viewFlipper.getOutAnimation().setAnimationListener(new Animation.AnimationListener() {

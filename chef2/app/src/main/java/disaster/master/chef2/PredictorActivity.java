@@ -18,7 +18,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class PredictorActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 

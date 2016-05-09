@@ -5,7 +5,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:fitsSystemWindows="true" tools:openDrawer="start">
 
-    <include layout="@layout/app_bar_recipe" android:layout_width="match_parent"
+    <include layout="@layout/app_bar_recipe1440" android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <android.support.design.widget.NavigationView android:id="@+id/nav_view_recipe"
@@ -14,7 +14,7 @@
         app:menu="@menu/activity_main_drawer"
         app:itemBackground="@drawable/gradient_item_drawer"
         android:background="#ffff33"
-        app:headerLayout="@layout/empty"
+        app:headerLayout="@layout/nav_header_main"
         />
 
 </android.support.v4.widget.DrawerLayout>

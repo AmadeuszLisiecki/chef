@@ -48,12 +48,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
-        /*if(width == 1440) {
-            //toolbar.setOverflowIcon(getTintedDrawable(this, R.drawable.logo_small, 0xffff0000));
-        }
-        else {
-            //setContentView(R.layout.start_screen);
-        }*/
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view_main);
         navigationView.setNavigationItemSelectedListener(this);
         rowTree = new ArrayList<>();
@@ -158,11 +152,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.main_menu) {
-            Intent mainScreen = new Intent(MainActivity.this, RandomActivity.class);
-
-            return true;
-        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -337,7 +326,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // KOKOSOWA POTRAWKA Z ANANASEM
 
         Ingredient chicken_breast = new Ingredient("pojedyncza", "pierś z kurczaka", 2.1);
-        Ingredient other_meat = new Ingredient("200 g", "innego mięsa (np. wątróbk, ryby)", -1);
+        Ingredient other_meat = new Ingredient("200 g", "innego mięsa (np. wątróbki, ryby)", -1);
         Ingredient pineapple = new Ingredient("4 plastry", "ananasa", 0.12);
         Ingredient other_fruit = new Ingredient("4 plastry", "innego owocu (np. jabłka)", -1);
         Ingredient pineappple_syrup = new Ingredient("1/3 szklanki", "syropu z ananasa", 0.4);
